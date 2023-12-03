@@ -1,0 +1,38 @@
+/* ========================== Residence Section Css Start ==================== */
+.residence {
+    overflow: hidden;
+}
+.residenceSliderWrapper {
+    margin: -16px;
+}
+.residenceItem {
+    padding: 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    background-color: hsl(var(--white));
+    margin: 16px;
+    transition: .2s linear;
+}
+.residenceItem:hover {
+    transform: translateY(-6px) scale(1.01);
+}
+.residenceThumb {
+    border-radius: inherit;
+    overflow: hidden;
+}
+.residenceContent {
+    padding-top: 24px;
+}
+.residencePrice {
+    font-size: clamp(0.9375rem, 0.7647rem + 0.4808vw, 1.25rem);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.residenceTitle {
+    margin-bottom: 8px !important;
+}
+.residenceDesc {
+    
+}
+/* ========================== Residence Section Css End ==================== */

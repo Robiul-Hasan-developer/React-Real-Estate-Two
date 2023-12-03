@@ -1,0 +1,21 @@
+/* ============== Get Started Section Css Start ========= */
+.getStartContent {
+  background-color: hsl(var(--base-two));
+  padding: 32px;
+  border-radius: 16px;
+}
+@media (max-width: 767px) {
+    .getStartContent {
+        padding: 32px;
+    }
+}
+@media (max-width: 575px) {
+    .getStartContent {
+        padding: 32px 12px;
+    }
+}
+.getStartContent p, .getStartContent h2 {
+    color: hsl(var(--white)) !important;
+}
+
+/* ============== Get Started Section Css End ========= */

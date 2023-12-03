@@ -1,0 +1,84 @@
+/* ===================== Hero Css Start ========================== */
+.heroSection {
+  padding-top: 8px;
+  padding-bottom: 32px;
+  width: 100%;
+  height: 100%;
+}
+
+.heroInner {
+  background: linear-gradient(180deg, hsl(var(--base-two) / 0.25), transparent);
+  padding: 56px;
+  border-radius: 16px;
+  position: relative;
+}
+@media (max-width: 1199px) {
+  .heroInner {
+    padding: 40px 32px;
+  }
+}
+@media (max-width: 768px) {
+  .heroInner {
+    padding: 32px 24px;
+  }
+}
+@media (max-width: 424px) {
+  .heroInner {
+    padding: 24px 16px;
+  }
+}
+.heroContent {
+  max-width: 660px;
+}
+
+.heroDesc {
+  font-size: clamp(0.9375rem, 0.8067rem + 0.3641vw, 1.125rem);
+  color: hsl(var(--heading-color));
+  font-weight: 500;
+  max-width: 560px;
+}
+.heroButton {
+  margin-top: clamp(1.5rem, -0.0467rem + 2.9126vw, 2.5rem);
+}
+
+.heroThumb {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 50%;
+}
+
+@media (max-width: 991px) {
+  .heroThumb {
+    display: none;
+  }
+}
+
+.heroThumb::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 85px;
+  background: linear-gradient(0deg, white, transparent);
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+}
+
+.counterUp {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 520px;
+  text-align: left;
+  gap: 20px;
+  margin-top: 32px;
+}
+.counterNumber {
+    font-size: clamp(1.5rem, 0.8398rem + 3vw, 3rem) !important;
+}
+.counterText {
+  font-size: clamp(0.9375rem, 0.8067rem + 0.3641vw, 1.125rem);
+  font-weight: 500;
+  /* color: hsl(var(--heading-color)); */
+}
+/* ===================== Hero Css End ========================== */
