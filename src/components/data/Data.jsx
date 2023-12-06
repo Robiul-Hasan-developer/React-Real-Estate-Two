@@ -21,7 +21,6 @@ export const banner = {
   title: "Find your next perfect place with us!",
   desc: "We help our clients prosper their business and partner them in designing expansion strategies.",
   path: "/",
-  image: "../../../../public/images/hero.png"
 };
 
 export const counterUp = [
@@ -42,63 +41,74 @@ export const counterUp = [
   },
 ]
 
+import brandImg1 from '../../../public/images/brand1.png'
+import brandImg2 from '../../../public/images/brand2.png'
+import brandImg3 from '../../../public/images/brand3.png'
+import brandImg4 from '../../../public/images/brand4.png'
+import brandImg5 from '../../../public/images/brand5.png'
+
 export const brand = [
   {
-    image: "../../../public/images/brand1.png",
+    image: brandImg1,
   },
   {
-    image: "../../../public/images/brand2.png",
+    image: brandImg2,
   },
   {
-    image: "../../../public/images/brand3.png",
+    image: brandImg3,
   },
   {
-    image: "../../../public/images/brand4.png",
+    image: brandImg4,
   },
   {
-    image: "../../../public/images/brand5.png",
+    image: brandImg5,
   },
   {
-    image: "../../../public/images/brand2.png",
+    image: brandImg2,
   }
 ]
+
+
+import residImg1 from '../../../public/images/residence1.png'
+import residImg2 from '../../../public/images/residence2.png'
+import residImg3 from '../../../public/images/residence3.png'
 
 export const residences = [
   {
     "name": "Aliva Priva Jardin",
     "price": "47,043",
     "desc": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "../../../public/images/residence1.png"
+    "image": residImg1
   },
   {
     "name": "Asatti Garden City",
     "price": "66,353",
     "desc": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "../../../public/images/residence2.png"
+    "image": residImg2
   },
   {
     "name": "Citralan Puri Serang",
     "price": "35,853",
     "desc": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "../../../public/images/residence3.png"
+    "image": residImg3
   },
   {
     "name": "Aliva Priva Jardin",
     "price": "47,043",
     "desc": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "../../../public/images/residence2.png"
+    "image": residImg2
   },
   {
     "name": "Asatti Garden City",
     "price": "66,353",
     "desc": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "../../../public/images/residence3.png"
+    "image": residImg3
   },
   {
     "name": "Citralan Puri Serang",
     "price": "35,853",
     "desc": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "../../../public/images/residence2.png"
+    "image": residImg1
   }
 ]
 
